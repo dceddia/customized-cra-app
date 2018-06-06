@@ -1,0 +1,19 @@
+{
+  "name": "my-customized-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "react": "^16.4.0",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4",
+    "sass-loader": "^7.0.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
